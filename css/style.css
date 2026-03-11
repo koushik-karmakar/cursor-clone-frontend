@@ -759,3 +759,126 @@ body {
   font-size: 15px;
   color: #8a8a8a;
 }
+/* /////////////////////////////////////////////////////// */
+
+@media (max-width: 1024px) {
+  .nav-center {
+    display: none;
+  }
+
+  .hero-text h1 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .logo-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .feature-inner {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .feature-agent-text {
+    width: 100%;
+  }
+
+  .feature-agent-media {
+    width: 100%;
+  }
+
+  .changelog-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .frontier-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .careers-inner {
+    flex-direction: column;
+  }
+
+  .kh-recent-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .ks-footer-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-inner {
+    padding: 0 20px;
+  }
+
+  .hero-inner {
+    padding: 0 20px;
+  }
+
+  .trust-inner {
+    padding: 0 20px;
+  }
+
+  .feature-agent-inner {
+    padding: 0 20px !important;
+  }
+
+  .test-container {
+    padding: 0 20px !important;
+  }
+
+  .fr-container {
+    padding: 0 20px !important;
+  }
+
+  .changelog-inner {
+    padding: 0 20px;
+  }
+
+  .careers-outer {
+    padding: 0 20px;
+  }
+
+  .hero-text h1 {
+    font-size: 20px;
+  }
+
+  .section-title {
+    font-size: 28px;
+  }
+
+  .logo-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+  }
+
+  .changelog-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .ks-footer-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .kk-cta-title {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .kk-cta-title {
+    font-size: 32px;
+  }
+}
